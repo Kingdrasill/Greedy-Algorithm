@@ -22,10 +22,38 @@ void Inicializar(Matriz *Matriz, PosicaoAtual *PosicaoAtual, int size) {
 }
 
 void Executar(Matriz *Matriz, PosicaoAtual *PosicaoAtual, int size) {
-    if(!(PosicaoAtual->linha == (size - 1))) {
+    int x = PosicaoAtual->coluna;
+    int y = PosicaoAtual->linha; 
 
+    Matriz->matriz[y][x].passado = true;
+    
+    int valorA = -1;
+    int valorP = -1;
+    int valorE = -1;
+
+    printf("%d %d\n", Matriz->matriz[y][x].valor, PosicaoAtual->soma);
+
+    if(!(y == (size - 1))) {
+        if(((x-1) >= 0) && !Matriz->matriz[y][x-1].passado)
+            valorA = Matriz->matriz[y][x-1].valor;
+
+        if(((x + 1) < size) && !Matriz->matriz[y][x+1].passado)
+            valorP = Matriz->matriz[y][x+1].valor;
+
+        valorE = Matriz->matriz[y+1][x].valor;
+
+        if(valorA > valorP && valorA > valorE) {
+            PosicaoAtual->coluna--;
+            PosicaoAtual->soma += valorA;
+        } else if(valorP >= valorA && valorP > valorE) {
+            PosicaoAtual->coluna++;
+            PosicaoAtual->soma += valorP;
+        } else {
+            PosicaoAtual->linha++;
+            PosicaoAtual->soma += valorE;
+        }
     } else {
-        PosicaoAtual->soma += Matriz->matriz[PosicaoAtual->linha][(PosicaoAtual->coluna + 1)].valor;
+        PosicaoAtual->soma += Matriz->matriz[y][(x + 1)].valor;
         PosicaoAtual->coluna++;
     }
 }

@@ -1,4 +1,4 @@
-# Algoritimos Gulosos: Contando Instruções
+# Algoritimo Guloso: Contando Instruções
 
 <div style="display: inline-block;">
 <img align="center" height="20px" width="60px" src="https://img.shields.io/badge/Language-C-blue"/> 

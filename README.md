@@ -29,6 +29,10 @@ O progama disponibilizado é um algoritimo guloso ele pega uma matriz NxN, sendo
 Observe um exemplo logo abaixo para uma matriz com N = 7.
 </p>
 
+<p align="center">
+<img src="imgs/exemplo.png"/> 
+</p>
+
 # Compilação e Execução
 
 O progama disponibilizado possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:

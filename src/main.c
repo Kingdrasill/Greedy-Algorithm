@@ -1,23 +1,32 @@
 #include "Matriz.h"
 
 int main() {
+    bool cont = true;
     Matriz M;
     PosicaoAtual P;
+    int size;
 
-    Inicializar(&M, &P);
+    printf("Valor de N:" );
+    scanf("%d", &size);
 
-    for(int i=0; i<MAX_SIZE; i++)
+    Inicializar(&M, &P, size);
+
+    for(int i=0; i<size; i++)
     {
-        for(int j=0; j<MAX_SIZE; j++)
+        for(int j=0; j<size; j++)
         {
             printf(" %d ", M.matriz[i][j].valor);
         }
         printf("\n");
     }
 
-    printf("\n%d\n", M.matriz[P.linha][P.coluna].valor);
-    
-    printf("\n%d\n", M.matriz[P.linha][P.coluna+1].valor);
-    
-    printf("\n%d\n", M.matriz[P.linha+1][P.coluna].valor);
+    while(cont) {
+        if(!(P.coluna == (size - 1)  && P.linha == (size - 1))){
+            Executar(&M, &P, size);
+        }
+        else 
+            cont = false;
+    }
+
+    printf("\nSoma: %d", P.soma);
 }

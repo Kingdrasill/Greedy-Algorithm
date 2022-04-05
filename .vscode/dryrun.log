@@ -1,0 +1,9 @@
+make.exe -f D:\CEFET\GRADUAÇÂO\3°Período\LabAEDI\teste\ --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `d:/CEFET/GRADUA��O/3�Per�odo/LabAEDI/Greedy-Algorithm'
+make.exe: Leaving directory `d:/CEFET/GRADUA��O/3�Per�odo/LabAEDI/Greedy-Algorithm'
+ 
+make.exe: D:\CEFET\GRADUA��O\3�Per�odo\LabAEDI\teste\: No such file or directory
+make.exe: *** No rule to make target `D:\CEFET\GRADUA��O\3�Per�odo\LabAEDI\teste\'.
+make.exe: Failed to remake makefile `D:\CEFET\GRADUA��O\3�Per�odo\LabAEDI\teste\'.
+make.exe: *** No targets specified and no makefile found.  Stop.
+

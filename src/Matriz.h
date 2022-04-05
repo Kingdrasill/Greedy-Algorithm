@@ -1,13 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
-#define MAX_SIZE 7
 
 typedef struct PosicaoAtual PosicaoAtual;
 typedef struct Numero Numero;
 typedef struct Matriz Matriz;
-
-void Inicializar(Matriz *Matriz, PosicaoAtual *PosicaoAtual);
 
 struct PosicaoAtual{
     int coluna;
@@ -21,5 +18,8 @@ struct Numero {
 };
 
 struct Matriz{
-    Numero matriz[MAX_SIZE][MAX_SIZE];
+    Numero **matriz;
 };
+
+void Inicializar(Matriz *Matriz, PosicaoAtual *PosicaoAtual, int size);
+void Executar(Matriz *Matriz, PosicaoAtual *PosicaoAtual, int size);

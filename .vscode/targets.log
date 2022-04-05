@@ -10,7 +10,7 @@ make.exe all -f D:\CEFET\GRADUAÇÂO\3°Período\LabAEDI\teste\ --print-data-bas
 make.exe: D:\CEFET\GRADUA��O\3�Per�odo\LabAEDI\teste\: No such file or directory
 
 
-# Make data base, printed on Mon Apr 04 20:45:04 2022
+# Make data base, printed on Tue Apr 05 13:49:36 2022
 
 # Variables
 
@@ -36,7 +36,8 @@ HOMEDRIVE = C:
 CURDIR := d:/CEFET/GRADUA��O/3�Per�odo/LabAEDI/Greedy-Algorithm
 # default
 SHELL := sh.exe
-# environment
+# environm 
+ent
 WINDIR = C:\Windows
 # environment
 VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"a513330bf1c350c1f1bb229e1d494e4b.pt-br","_translationsConfigFile":"C:\\Users\\Usuario\\AppData\\Roaming\\Code\\clp\\a513330bf1c350c1f1bb229e1d494e4b.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\Usuario\\AppData\\Roaming\\Code\\clp\\a513330bf1c350c1f1bb229e1d494e4b.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\Usuario\\AppData\\Roaming\\Code\\clp\\a513330bf1c350c1f1bb229e1d494e4b.pt-br\\e18005f0f1b33c29e81d732535d8c0e47cafb0b5","_corruptedFile":"C:\\Users\\Usuario\\AppData\\Roaming\\Code\\clp\\a513330bf1c350c1f1bb229e1d494e4b.pt-br\\corrupted.info","_languagePackSupport":true}
@@ -57,11 +58,12 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-93dd19eb-9cbe-4e0b-beb5-3ffa4eee9c81-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-315ff4b4-ee3f-4ece-9ab9-9829e8d755ac-sock
 # environment
 VSCODE_CWD = C:\Users\Usuario\AppData\Local\Programs\Microsoft VS Code
 # environment
-PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\MinGW\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Usuario\AppData\Local\Microsoft\WindowsApps;;C:\Users\Usuario\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Usuario\.dotnet\tools
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C: 
+\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\MinGW\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Usuario\AppData\Local\Microsoft\WindowsApps;;C:\Users\Usuario\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Usuario\.dotnet\tools
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -69,8 +71,6 @@ ZES_ENABLE_SYSMAN = 1
 # environment
 PROCESSOR_ARCHITECTURE = x86
  
-make.exe: *** No rule to make target `D:\CEFET\GRADUA��O\3�Per�odo\LabAEDI\teste\'.  Stop.
-
 # environment
 USERPROFILE = C:\Users\Usuario
 # environment
@@ -86,7 +86,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_888_JHRVWFGDFUUWENVA
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_108_GAKPWGQGCYMNOTWO
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -108,7 +108,8 @@ VSCODE_CODE_CACHE_PATH = C:\Users\Usuario\AppData\Roaming\Code\CachedData\e18005
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
-COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+COMM 
+ONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 LOGONSERVER = \\DESKTOP-GMMJ3OJ
 # environment
@@ -130,7 +131,8 @@ PROGRAMFILES(X86) = C:\Program Files (x86)
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-LOCALAPPDATA = C:\Users\Usuario\AppData\Local
+LOCALAPPDATA = C:\Use 
+rs\Usuario\AppData\Local
 # environment
 PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # default
@@ -148,7 +150,8 @@ OS = Windows_NT
 # environment
 VSCODE_IPC_HOOK = \\.\pipe\7373b878365f46084be1fe12ed465d1f-1.66.0-main-sock
 # environment
-HOMEPATH = \Users\Usuario
+HOMEP 
+ATH = \Users\Usuario
 # environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
@@ -172,7 +175,8 @@ COMSPEC = C:\Windows\system32\cmd.exe
 # default
 MAKEFILES := 
 # automatic
-<F = $(notdir $<)
+< 
+F = $(notdir $<)
 # environment
 LC_ALL = C
 # automatic
@@ -192,7 +196,7 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 888
+VSCODE_PID = 108
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-GMMJ3OJ
 # variable set hash-table stats:
@@ -200,7 +204,8 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-GMMJ3OJ
 
 # Pattern-specific Variable Values
 
-# No pattern-specific variable values.
+# No pattern-spe 
+cific variable values.
 
 # Directories
 
@@ -209,20 +214,24 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-GMMJ3OJ
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1605754418): 29 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1645792306): 155 files, no impossibilities.
 # . (key d:/CEFET/GRADUA��O/3�Per�odo/LabAEDI/Greedy-Algorithm, mtime 1649115901): 9 files, no impossibilities.
-# C:\Users\Usuario\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1648735409): 4 files, no impossibilities.
+# C:\Users\Usuario\AppData\L 
+ocal\Programs\Microsoft VS Code\bin (key C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1648735409): 4 files, no impossibilities.
 # C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1648739778): 10 files, no impossibilities.
 # C:\Users\Usuario\AppData\Local\Microsoft\WindowsApps (key C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps, mtime 1648817300): 13 files, no impossibilities.
 # C:\MinGW\bin (key C:/MinGW/bin, mtime 1648734652): 144 files, no impossibilities.
-# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\W 
+indows\System32\OpenSSH\: could not be stat'd.
 # C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1643020420): 5 files, no impossibilities.
 # C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1621870838): 4 files, no impossibilities.
 # C:\Windows (key C:/Windows, mtime 1634735918): 117 files, no impossibilities.
-# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/, mtime 1622758321): 7 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ 
+ODBC\170\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/, mtime 1622758321): 7 files, no impossibilities.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1649089669): 8 files, no impossibilities.
 # C:\Windows\system32 (key C:/Windows/system32, mtime 1649088063): 3059 files, no impossibilities.
 # C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1648732626): 5 files, no impossibilities.
 
-# 3569 files, no impossibilities in 17 directories.
+# 3569 files, no impossibilities  
+in 17 directories.
 
 # Implicit Rules
 
@@ -247,7 +256,8 @@ all:
 D:\CEFET\GRADUA��O\3�Per�odo\LabAEDI\teste\:
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has not been updated.
+#  File has not been updated 
+.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
@@ -268,8 +278,11 @@ D:\CEFET\GRADUA��O\3�Per�odo\LabAEDI\teste\:
 # # of strings in strcache: 1
 # # of strcache buffers: 1
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+ 
 # strcache free: total = 4052 / max = 4052 / min = 4052 / avg = 4052
 
-# Finished Make data base on Mon Apr 04 20:45:04 2022
+# Finished Make data base on Tue Apr 05 13:49:36 2022
 
  
+make.exe: *** No rule to make target `D:\CEFET\GRADUA��O\3�Per�odo\LabAEDI\teste\'.  Stop.
+

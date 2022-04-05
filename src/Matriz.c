@@ -1,7 +1,7 @@
 #include "Matriz.h"
 
 void Inicializar(Matriz *Matriz, PosicaoAtual *PosicaoAtual, int size) {
-    srand(0);
+    srand(time(0));
     
     Matriz->matriz = (Numero **)malloc(sizeof(Numero *)*size);
 	for(int i=0; i<size; i++)

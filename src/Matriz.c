@@ -31,8 +31,6 @@ void Executar(Matriz *Matriz, PosicaoAtual *PosicaoAtual, int size) {
     int valorP = -1;
     int valorE = -1;
 
-    printf("%d %d\n", Matriz->matriz[y][x].valor, PosicaoAtual->soma);
-
     if(!(y == (size - 1))) {
         if(((x-1) >= 0) && !Matriz->matriz[y][x-1].passado)
             valorA = Matriz->matriz[y][x-1].valor;

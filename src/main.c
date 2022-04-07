@@ -4,12 +4,13 @@ int main() {
     bool cont = true;
     Matriz M;
     PosicaoAtual P;
+    Valores V;
     int size;
 
     printf("Valor de N:" );
     scanf("%d", &size);
 
-    Inicializar(&M, &P, size);
+    Inicializar(&M, &P, &V, size);
 
     for(int i=0; i<size; i++)
     {
@@ -22,11 +23,19 @@ int main() {
 
     while(cont) {
         if(!(P.coluna == (size - 1)  && P.linha == (size - 1))){
-            Executar(&M, &P, size);
+            Executar(&M, &P, &V, size);
         }
         else 
             cont = false;
     }
 
-    printf("\nSoma: %d", P.soma);
+    printf("\nValores passados: ");
+    ImprimirValores(&V);
+    printf("\n");
+
+    printf("\nValores passados em ordem reversa: ");
+    ImprimirValoresReverso(&V);
+    printf("\n");
+
+    printf("\nSoma: %d\n", P.soma);
 }

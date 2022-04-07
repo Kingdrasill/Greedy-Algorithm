@@ -6,6 +6,7 @@
 typedef struct PosicaoAtual PosicaoAtual;
 typedef struct Numero Numero;
 typedef struct Matriz Matriz;
+typedef struct Valores Valores;
 
 struct PosicaoAtual{
     int coluna;
@@ -22,5 +23,12 @@ struct Matriz{
     Numero **matriz;
 };
 
-void Inicializar(Matriz *Matriz, PosicaoAtual *PosicaoAtual, int size);
-void Executar(Matriz *Matriz, PosicaoAtual *PosicaoAtual, int size);
+struct Valores{
+    int *vet;
+    int cont;
+};
+
+void Inicializar(Matriz *Matriz, PosicaoAtual *PosicaoAtual, Valores *Valores, int size);
+void Executar(Matriz *Matriz, PosicaoAtual *PosicaoAtual, Valores *Valores, int size);
+void ImprimirValores(Valores *Valores);
+void ImprimirValoresReverso(Valores *Valores);
